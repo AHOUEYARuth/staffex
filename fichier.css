@@ -29,6 +29,7 @@ body{
     width: 50px;
     fill: #fff;
     height: 30px;
+    transition: .3s ease-in-out;
 }
 .logo svg:hover{
     fill: #5CFF4F;
@@ -69,6 +70,10 @@ button{
     background-color: #fff;
    
 } */
+
+li a{
+    transition: .3s ease-in-out;
+}
 li a:hover{
     background-color: #fff;
     color: #000;
@@ -112,7 +117,7 @@ h1{
     justify-content: center;
     /* height: 88vh; */
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 30px 20px;
     /* padding-left: 20px;
     padding-right: 20px; */
@@ -201,6 +206,10 @@ p{
     margin: 20px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
+}
+.about_list:hover{
+    box-shadow: rgba(71, 71, 71, 0.15) 1.95px 1.95px 2.6px;
 }
 .about_list img{
     width: 30px;
@@ -259,6 +268,7 @@ p{
     align-items: center;
     height: 50px;
     justify-content: center;
+    cursor: pointer;
 }
 .icone img{
     height: 30px;
@@ -337,6 +347,7 @@ p{
    top: 280px;
    right: 150px;
    margin-bottom: 20px;
+   cursor: pointer;
 }
 .secretary_text span{
     color: rgb(233, 229, 229);
@@ -521,6 +532,7 @@ footer span{
 .song{
     background-color: black; 
     border: none;
+    cursor: pointer;
 }
 .song a{
     color: #fff;
